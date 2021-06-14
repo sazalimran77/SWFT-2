@@ -1,0 +1,957 @@
+@font-face{
+    font-family: larsseit;
+    src: url("fonts/Larsseit.ttf");
+}
+@font-face{
+    font-family: JandusRoad-CondensedOblDepth;
+    src: url("fonts/Larsseit.ttf");
+}
+@font-face{
+    font-family: jandusRoad-condensedOblique;
+    src: url("Fonts/JandusRoad-CondensedOblique.ttf");
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: acumin-pro, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0; 
+}
+ul{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+ul{
+    padding-left: 0;
+}
+.btn_with_bg{
+    display: inline-block;
+    background: #95c9ed;
+    padding: 1.5rem 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 3.1rem;
+    margin-bottom: 3.1rem;
+}
+.display_1{
+    font-family: jandusRoad-condensedOblique;
+    font-size: 22.6rem;
+    text-transform: uppercase;
+    line-height: .72em;
+}
+.display_2{
+    font-size: 9rem;
+    
+}
+.display_3{
+    font-size: 5.2rem;
+}
+.display_4{
+    font-size: 4.2rem;
+    line-height: .6em;
+}
+.display_5{
+    font-size: 4rem;
+    line-height: 1.2em;
+}
+.display_6{
+    font-size: 3.2rem;
+}
+.display_b1{
+    font-size: 15rem;
+    font-family: jandusRoad-condensedOblique;
+    line-height: .75em;
+}
+.display_b2{
+    font-size: 9.5rem;
+    font-family: jandusRoad-condensedOblique;
+    line-height: .7em;
+}
+.display_b3{
+    font-size: 8rem;
+}
+.display_b4{
+    font-size: 2.8rem;
+}
+.display_b5{
+    font-size: 2rem;
+}
+.display_b6{
+    font-size: 2.6rem;
+}
+.display_b7{
+    font-size: 2.4rem;
+}
+.display_b8{
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+}
+.display_b9{
+    font-size: 2.1rem;
+}
+.display_b10{
+    font-size: 1.8rem;
+}
+.site_top_with_bg_img{
+    background: url('img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 8.7rem;
+}
+header{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.site_logo{
+    width: 9rem;
+    margin: auto;
+}
+.header_items ul li {
+    list-style: none;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.menu_list_white li a{
+    color: #ffffff;
+}
+.header_menu_list_left li{
+    margin-right: 5rem;
+    justify-content: flex-start;
+}
+.header_menu_list_right li{
+    margin-left: 5rem;
+    justify-content: flex-end;
+}
+.cart{
+    width: 3rem;
+}
+.hero_content_white{
+    color: #ffffff;
+}
+.big_title{
+    font-size: 30rem;
+    line-height: .71em;
+    padding-top: 7rem;
+    font-family: jandusRoad-condensedOblique;
+}
+.hero_title_black{
+    color: #1d1c1c;
+    line-height: 106px;
+    padding-top: 10rem;
+}
+.home_hero_subtitle{
+    max-width: 49%;
+    margin: auto;
+    line-height: 50px;
+    padding-top: 10.5rem;
+}
+.collection_hero_subtitle{
+    max-width: 62%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}
+.about_hero_subtitle{
+    max-width: 81%;
+    padding-top: 3.5rem;
+}
+.hero_subtitle_white{
+    color: #ffffff;
+}
+.hero_content_black .review_content{
+    padding-bottom: 4rem;
+}
+.review_content a {
+    width: 16rem;
+    display: inline-block;
+}
+.review_content p{
+    font-size: 1.5rem;
+    color: #1d1c1c;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+.featured_section{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+    background: #1d1c1c;
+}
+.section_wrapper{
+    max-width: 93.96%;
+    margin: 0 auto;
+}
+.products_category_title{
+    color: #ffffff;
+    padding-bottom: 5rem;
+}
+.products_category_title .display_3:nth-child(1){
+    padding-right: 1.5rem;
+    color: #6e6e70;
+}
+.add_btn{
+    font-size: 4.2rem;
+    padding-left: 1.5rem;
+}
+.featured_product_img{
+    background: #ffffff;
+    height: 58.5rem;
+}
+.featured_product_img a img{
+   height: 100%;
+}
+.product_info{
+    padding-top: 2.7rem;
+}
+.product_info p{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.product_title_price{
+    display: flex;
+    justify-content: space-between;
+}
+.price span{
+    text-decoration: line-through;
+    color: #6e6e70;
+    padding-right: 1rem;
+}
+.color_variable {
+    padding-top: 10px;
+}
+.form-check-label {
+    display: inline-block;
+    margin-right: 10px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+  input[type="radio"] {
+    visibility: hidden;
+}
+  #color_1 {
+    background: #ffffff;
+}
+  #color_2 {
+    background: #fac0bf;
+}
+  #color_3 {
+    background: #a1cfe9;
+}
+  #color_4 {
+    background: #6e6e70;
+}
+.hoverboard_text{
+    color: #ffffff;
+    border: 1px solid #6e6e70;
+    padding: 2rem 0;
+    margin-top: 5rem;
+    font-weight: 600;
+}
+.featured_section .hoverboard_text{
+    margin-bottom: 13.8rem;
+}
+.we_got_you_content{
+    color: #ffffff;
+}
+.we_got_you_content h1{
+    padding-bottom: 3.5rem;
+}
+.auto_cycle_section{
+    margin-bottom: -5rem;
+}
+.auto_cycle_product_details{
+    margin-bottom: 5rem;
+}
+.never_stop_title{
+    font-family: jandusRoad-condensedOblique;
+}
+.auto_cycle_product_img{
+    margin-top: -7.5rem;
+}
+.swft_life_section{
+    background: #1d1c1c;
+    padding-top: 9rem;
+}
+.swft_life_section .container-fluid{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.swft_life_section_title{
+    color: #ffffff;
+    padding-bottom: 3rem;
+    padding-left: 7rem !important;
+}
+.gamma_img::after{
+    content: '';
+    background: #1d1c1c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .5;
+    
+}
+.gamma_overlay_text{
+    color: #ffffff;
+    position: absolute;
+    bottom: 3.5rem;
+    left: 3.5rem;
+}
+.gamma_overlay_text .love_gamma{
+    padding: 1.8rem 0;
+}
+.gamma_overlay_text .shop_gamma_btn{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 1rem 3.5rem;
+    font-weight: 700;
+    display: inline-block;
+}
+.brand_promotion_text{
+    background: #95c9ed;
+}
+.brand_promotion_text p{
+    color: #000000;
+    font-size: 3.1rem;
+    text-align: center;
+    font-family: larsseit;
+    margin-top: 6rem;
+    line-height: 4.2rem;
+}
+.brand_promotion_text p a{
+    text-decoration: underline;
+}
+.wired_img{
+    width: 16rem;
+    position: absolute;
+    bottom: 12%;
+    left: 30%;
+}
+.review_section{
+    padding-top: 13.5rem;
+    padding-bottom: 13.5rem;
+}
+.review_section_content{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.review_section_content p{
+    padding-bottom: 2rem;
+}
+.paartner_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+.paartner_logo a{
+    padding: 0 3rem;
+}
+.review_img{
+    width: 16rem;
+
+}
+.product_category_section{
+    background: #1d1c1c;
+    position: relative;
+}
+.product_category_title_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+.category_title{
+    color: #6e6e70;
+}
+.category_title .category_title_white{
+    color: #ffffff;
+}
+.all_category_info{
+    color: #ffffff;
+    max-width: 42%;
+}
+.product_category_section .hoverboard_text{
+    margin-bottom: 10.5rem;
+}
+.split_section{
+    background: #1d1c1c;
+    padding-bottom: 5rem;
+}
+.sonic_product_details{
+    height: 100%;
+}
+.sonic_text_content{
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+.split_section_column_title{
+    font-family: jandusRoad-condensedOblique;
+}
+.sonic_info{
+    font-size: 2.88rem;
+}
+.sonic_img{
+    transform: translateY(40%);
+    text-align: center;
+}
+.sonic_img a img{
+    width: 70%;
+}
+.the_edit{
+    color: #ffffff;
+    position: absolute;
+    top: 6%;
+    left: 8%;
+}
+.dj p{
+    font-size: 2.2rem;
+    position: absolute;
+    color: #ffffff;
+    bottom: 5%;
+    left: 7%;
+}
+.shop_now{
+    display: inline-block;
+    position: absolute;
+    color: #1d1c1c;
+    font-weight: 700;
+    bottom: 10%;
+    left: 7%;
+}
+.stay_move_and_sign_up{
+  padding-top: 10rem;  
+}
+.stay_move h3{
+    color: #ffffff;
+    font-size: 5.35rem;
+}
+.sign_up_text{
+    color: #ffffff;
+    padding-bottom: 3.5rem;
+}
+.email_text{
+    color: #6e6e70;
+    padding-bottom: 2rem;
+}
+.sign_up form input{
+    width: 74%;
+    height: 5.5rem;
+    font-size: 1.6rem;
+    padding-left: 1.5rem;
+    border: none;
+    outline: none;
+}
+.footer_wrapper{
+    padding: 10.5rem 0 8rem 0;
+}
+.our_mission{
+    padding-bottom: 11rem;
+}
+.our_mission h3{
+    font-family: jandusRoad-condensedOblique;
+}
+.our_mission p{
+    max-width: 84%;
+}
+.footer_menu_list li{
+    list-style: none;
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+}
+.footer_menu_list li a{
+    color: #1d1c1c;
+}
+.social_link_support ul{
+    padding-left: 0;
+    align-items: flex-end;
+}
+.social_link_support ul li{
+    list-style: none;
+    padding-right: 5rem;
+}
+.social_link_support ul li a{
+    color: #1d1c1c;
+}
+.social_link_list li a{
+    font-size: 3rem;
+}
+.support_menu_list li a{
+    font-size: 2rem;
+}
+.blaze-img{
+    width: 500px;
+    height: 600px;
+    background: #fac0bf;
+}
+
+/* ----collection page start---- */
+
+.site_top_white{
+    background: #e3e2e2;
+}
+.menu_list_black li a{
+    color: #1d1c1c;
+}
+
+.filter_section{
+    padding: 0 0 6.8rem 0;
+}
+.age_filter{
+    background: #ffffff;
+    padding: .6rem 1.5rem;
+    border-radius: 2.5rem;
+    max-width: 77.5%;
+    margin: auto;
+}
+.age_filter button{
+    border: none;
+    background: none;
+    font-size: 2.1rem;
+    font-weight: 700;
+    transition: .4s;
+    margin-left: .5rem;
+}
+.age_filter button:hover{
+    background: #1d1c1c;
+    color: #ffffff;
+    border-radius: .5rem;
+}
+.filter_section p{
+    font-size: 2.1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.filter_section p a{
+    color: #1d1c1c;
+}
+.filter_right p{
+    padding-right: 2rem;
+}
+.collection_products{
+    padding-bottom: 1.5rem;
+}
+.products_list{
+    margin-left: -3.5rem !important;
+    margin-right: -3.5rem !important;
+}
+.products_list_col_gap{
+    padding: 0 3.5rem !important;
+}
+.product_info_white{
+    padding-bottom: 8rem;
+}
+.product_info_white p{
+    color: #1d1c1c;
+}
+.collection_bannner{
+    background: url("img/collection-banner.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.collection_bannner .never_stop_title{
+    color: #ffffff;
+    text-align: right;
+    padding-top: 8.7rem;
+    padding-right: 9rem;
+    line-height: 7.8rem;
+}
+.services_section{
+    background: #1d1c1c;
+    padding: 10rem 12.5rem
+}
+.services_item_details{
+    padding-bottom: 10.1rem;
+    max-width: 68%;
+}
+.services_item_details p {
+    font-size: 2.8rem;
+    color: #ffffff;
+    line-height: 3.2rem;
+    padding-left: 2rem;
+}
+.services_item_details span img{
+    width: 5rem;
+}
+/* ----collection page end---- */
+
+/* ----about page start---- */
+
+.site_top_bg_black{
+    background: #1d1c1c;
+    padding-bottom: 16.5rem;
+}
+.hero_wrapper_padding{
+    margin-top: 13rem;
+}
+.about_hero_title{
+    font-size: 11.6rem;
+    font-family: jandusRoad-condensedOblique;
+    line-height: 11.7rem;
+}
+.hero_banner img{
+    height: 88rem;
+}
+.hero_slider{
+    margin-top: 16.5rem;
+}
+.hero_slider_text_bg{
+    background: #95c9ed;
+}
+.hero_slidr_img img{
+    height: 100%;
+}
+.hero_slidr_text{
+    
+    padding: 0 3rem;
+}
+.hero_slidr_text .our_values{
+    font-weight: 700;
+    padding-top: 5rem;
+}
+.hero_slidr_text .ethical_labor_text{
+    padding-top: 18.5rem;
+}
+.ethical_labor_text P{
+    padding-top: 2.5rem;
+}
+.ethical_labor_text h3{
+    font-size: 6.5rem;
+    font-family: jandusRoad-condensedOblique;
+    margin-top: 3rem;
+}
+
+.hero_slidr_text .slider_number{
+    font-size: 2.8rem;
+    font-style: italic;
+    font-family: jandusRoad-condensedOblique;
+    margin-top: 16.4rem;
+    padding-bottom: 4.2rem;
+}
+.faq_text{
+    padding-top: 10.5rem;
+    padding-bottom: 4rem;
+}
+.faq_subtitle{
+    font-size: 3.3rem;
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 12rem;
+    line-height: 4.2rem;
+}
+.faq_title_list_left p{
+    padding-bottom: 1rem;
+}
+.faq_title_list_left p a{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1d1c1c;
+    text-transform: uppercase;
+    
+}
+.faq_title{
+    font-family: jandusRoad-condensedOblique; 
+    font-size: 4.5rem;
+    padding-bottom: .7rem;
+}
+.faq_title_right{
+    padding-bottom: 8rem;
+}
+.faq_title_details h4{
+    font-size: 2.6rem;
+    cursor: pointer;
+    padding-bottom: 3.5rem;
+    padding-top: 2rem;
+}
+.faq_title_details p{
+    font-size: 2.2rem;
+    border-bottom: 2px solid #6e6e70;
+    padding-bottom: 2rem;
+}
+.faq_title_details:nth-last-child(1) p{
+    border: none;
+}
+
+.ebike_products_category_content{
+    background: #ffffff;
+    margin-bottom: 8rem;
+}
+.ebike_products_img{
+    margin: -3rem auto;
+    max-width: 80%;
+}
+.e_bike_3 img{
+    width: 80%;
+}
+.ebike_products_details{
+    padding-left: 6.7rem;
+    padding-top: 7rem;
+}
+.category_hero_subtitle{
+    max-width: 46%;
+    margin: auto;
+    padding-top: 5.3rem;
+    padding-bottom: 3.5rem;
+}
+.ebike_products_info{
+    max-width: 91%;
+    font-size: 2.7rem;
+    line-height: 3.8rem;
+    margin-top: 3.5rem;
+}
+
+
+.volt_product_info{
+    margin-top: 10rem;
+}
+.volt_ebike_img img{
+    width: 94%;
+}
+.volt_ebike_parts_img a{
+    display: inline-block;
+    padding: 2rem 0;
+}
+.volt_ebike_info_text .price{
+    padding-bottom: 1.7rem;
+    padding-top: 2rem;
+    border-bottom: 2px solid #6e6e70;
+}
+.volt_ebike_info_text .review_content{
+    padding-bottom: 2rem;
+}
+.prequalify{
+    padding: 1.7rem 0;
+}
+.volt_ebike_info_text .review_content a{
+    width: 12rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3px;
+}
+.products_features_info{
+ text-align: center;
+}
+.products_features_info_border{
+    border-left: 2px solid #6e6e70;
+}
+.feature_ability_value{
+ font-size: 4rem;
+ border: 2px solid #000000;
+ border-radius: 50%;
+ width: 6rem;
+ height: 6rem;
+ margin: auto;
+ position: relative;
+}
+.feature_ability_value span{
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translateX(-50%);
+}
+.feature_facility_info{
+    line-height: 5rem;
+}
+.feature_facility{
+    padding-top: 2.3rem;
+}
+.feature_facility_info span img{
+    width: 2.5rem;
+}
+.free_shipping_return{
+    padding-top: 2.6rem;
+}
+.free_shipping_return h6{
+    padding-bottom: 3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-style: italic;;
+}
+.free_shipping_return h6 span img{
+    width: 3.5rem;
+}
+.free_shipping_return P{
+    border-top: 2px solid #6e6e70;
+    padding: 1.2rem 0;
+}
+.product_callout_blur_img{
+    max-width: 50%;
+    margin: auto;
+    opacity: .5;
+}
+.product_callout{
+    margin-top: 13rem;
+    padding-bottom: 16rem;
+}
+.product_callout_banner_img{
+    padding-top: 8rem;
+    position: relative;
+}
+
+.never_stop{
+    position: relative;
+    height: 99.5rem;
+    background: url('img/volt-ebike/never-settle-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.never_stop_title_2{
+    color: #ffffff;
+    font-family: jandusRoad-condensedOblique; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.products_features_details{
+
+}
+.products_features_details_text_bg{
+    background: #a1cfe9;
+}
+.products_features_details_text_content h2{
+    font-family: jandusRoad-condensedOblique;
+}
+.products_features_details_text_content p{
+    max-width: 60%;
+    margin: auto;
+    padding-top: .5rem;
+}
+.customer_review_and_question{
+    background: #e3e2e2;
+    padding-top: 10.5rem;
+}
+.customer_review_and_question .section_wrapper{
+    padding: 0 9rem;
+}
+.review_score_border{
+    border-bottom: 2px solid #6e6e70;
+}
+.review_score_content{
+    padding-bottom: 2rem;
+}
+.review_score_content a{
+    width: 18rem;
+    display: inline-block;
+    padding-left: 3rem;
+}
+.review_score_content h3{
+    font-size: 6.8rem;
+    padding-bottom: 1.5rem;
+}
+.review_img_big{
+    display: inline-block;
+}
+.review_details_content{
+    max-width: 70%;
+}
+.review_and_question_title h6{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+.customer_review_and_question .btn_with_bg{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+}
+.review_top_content a{
+    display: inline-block;
+}
+.swft_review_logo{
+    padding-right: 2rem;
+}
+.swft_review_logo a{
+    
+    width: 7.5rem;
+    height: 7.5rem;
+    background: #ffffff;
+    border-radius: 50%;
+    position: relative;
+}
+.swft_review_logo a img{
+    width: 4rem;
+    position: absolute;
+    top: 44%;
+    left: 23%;
+}
+.customer_name{
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.review_top_content_text .review_img{
+    width: 11rem;
+}
+.customer_review_text{
+    font-size: 3rem;
+    padding-top: 2rem;
+    line-height: 4.4rem;
+}
+.customer_review_and_question .hoverboard_text{
+    color: #1d1c1c;
+    margin-bottom: 11rem;
+}
+
+.plus_btn{
+    width: 3rem;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 68%;
+    z-index: 11;
+}
+.plus_btn::after{
+    content: '';
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: #a1cfe9;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.hover_box{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    visibility: hidden;
+    width: 30%;
+    background: #a1cfe9;
+    padding: 2rem;
+    
+}
+.hover_box h6{
+    font-weight: 600;
+}
+.plus_btn:hover + .hover_box{
+    visibility: visible;
+    
+}
